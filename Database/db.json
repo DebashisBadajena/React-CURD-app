@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "name": "Debashis",
+      "salary": "1234567",
+      "company": "tcs",
+      "id": 2
+    },
+    {
+      "name": "Rocky",
+      "salary": "15000000",
+      "company": "KGF",
+      "id": 3
+    },
+    {
+      "name": "Bahubali",
+      "salary": "10000000",
+      "company": "Infosys",
+      "id": 4
+    },
+    {
+      "name": "Deb",
+      "salary": "150000",
+      "company": "Jspider",
+      "id": 5
+    }
+  ]
+}

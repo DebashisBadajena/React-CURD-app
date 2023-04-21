@@ -1,0 +1,131 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.nav {
+  background-color: whitesmoke;
+  height: 72px;
+  border-bottom: 1px soldi grey;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav > a {
+  color: black;
+  text-decoration: none;
+  font-size: 25px;
+  transition: 0.3s;
+}
+
+.user {
+  width: 90%;
+  margin: 25px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  border: 1px solid;
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  padding: 15px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.card > div {
+  display: flex;
+  margin: 10px 0;
+}
+.card > div > p {
+  width: 50%;
+}
+.btn {
+  display: flex;
+  justify-content: space-evenly;
+}
+.btn > a {
+  text-decoration: none;
+  background-color: rgb(43, 241, 43);
+  padding: 3px 10px;
+  border-radius: 7px;
+  color: white;
+  transition: 0.3s;
+}
+.btn > button {
+  text-decoration: none;
+  background-color: rgb(241, 43, 43);
+  border: none;
+  cursor: pointer;
+  padding: 3px 10px;
+  border-radius: 7px;
+  color: white;
+  transition: 0.3s;
+}
+.createUser,
+.updateUser {
+  /* border: 1px solid; */
+  width: 80%;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.createUser > div,
+.updateUser > div {
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 250px;
+  width: 350px;
+  margin: 40px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 3px;
+}
+.createUser > div > div,
+.updateUser > div > div {
+  width: 80%;
+  margin: 10px;
+  display: flex;
+}
+.createUser > div > div > label,
+.updateUser > div > div > label {
+  width: 35%;
+}
+.createUser > div > div > input,
+.updateUser > div > div > input {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid;
+  font-weight: bold;
+}
+.createUser > div > button,
+.updateUser > div > button {
+  background-color: rgb(43, 241, 43);
+  border: none;
+  padding: 5px 10px;
+  border-radius: 7px;
+  color: white;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+/* hoveer effect */
+.nav > a:hover {
+  text-shadow: 2px 1px 2px rgb(71, 71, 71);
+}
+.card:hover {
+  box-shadow: 0 0 5px;
+}
+
+.btnShadow:hover {
+  box-shadow: 0 0 2px black;
+}
