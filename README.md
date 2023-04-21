@@ -8,6 +8,10 @@ In the project directory, you can run:
 
 ### `npm start`
 
+In the project directory, you can use this command to start json server:
+
+### `npx json-server Database/db.json --watch port 5000`
+
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
